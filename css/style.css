@@ -7,6 +7,7 @@
   font-family: "Anta", sans-serif;
 }
 body{
+  color: white;
   background: url('https://images.pexels.com/photos/6470652/pexels-photo-6470652.jpeg?cs=srgb&dl=pexels-jeremy-m%C3%BCller-6470652.jpg&fm=jpg&_gl=1*asbyoo*_ga*MTkwMjg5NDczMC4xNzA4OTUyMDkx*_ga_8JE65Q40S6*MTcwODk1MjA5MS4xLjEuMTcwODk1MjE0My4wLjAuMA..') no-repeat center center/ cover;
   width: 100vw;
   height: 100vh;
@@ -24,6 +25,19 @@ img {
   margin: 5px;
   height: 50px;
 }
-nav h2{
-  color: white;
+
+div.container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  padding: 50px;
+  gap: 40px;
+  row-gap: 20px;
+}
+div.name{
+  display: flex;
+  justify-content: space-between;
+}
+.boton{
+  padding: 5px 40px;
 }

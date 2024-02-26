@@ -80,3 +80,18 @@ const marvel = [
 const dc = [
     
 ]
+
+console.log('holi');
+const id1 = '5d86371fd55e2e2a30fe1ccb';
+const name1 = document.getElementById('name1');
+const image1 = document.getElementById('image1');
+const hero1 = marvel.find(hero1=>hero1.id===id1);
+name1.textContent = (hero1.name);
+image1.src = hero1.squarePic;
+const id2 = '5d86371f2343e37870b91ef1';
+const name2 = document.getElementById('name2');
+const image2 = document.getElementById('image2');
+const hero2 = marvel.find(hero2=>hero2.id===id2);
+name2.textContent = (hero2.name);
+image2.src = hero2.squarePic;
+
