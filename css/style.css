@@ -47,6 +47,10 @@ div.name{
   padding: 5px 30px;
   border-radius: 10px;
   font-size: 1em;
+  transition: 0.4s;
+}
+.boton:hover{
+  transform: scale(1.1);
 }
 div.card{
   display: grid;
@@ -68,12 +72,59 @@ div.image img{
   height: auto;
   min-width: 200px;
 }
+.opacity{
+  display: none;
+  z-index: 4;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+}
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  width: 75vw;
+  height: 75vh;
+  z-index: 5;
+  overflow-y: auto;
+} 
+.general{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  text-align: justify;
+  gap: 20px;
+}
+div.imageModal{
+  text-align: center;
+}
+.imgModal{
+  object-fit: contain;
+  max-width: 300px;
+  height: auto;
+  width: auto;
+}
 
-@media (max-width:700px) {
+@media (max-width:600px) {
   nav.encabezado {
     font-size: 5vw;
   }
   div.container{
     font-size: 5vw;
+  }
+  .general{
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+  .imgModal{
+    max-width: 200px;
   }
 }

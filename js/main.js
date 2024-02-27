@@ -108,33 +108,162 @@ const marvel = [
     ]
 
 const dc = [
-    
-]
+        {
+          "id": 1,
+          "name": "Superman",
+          "about": "El último hijo de Krypton, con poderes sobrehumanos en la Tierra.",
+          "picture": "superman_vertical.jpg",
+          "squarePic": "superman_horizontal.jpg",
+          "fecha_creacion": "1938-04-18"
+        },
+        {
+          "id": 2,
+          "name": "Batman",
+          "about": "Millonario Bruce Wayne que lucha contra el crimen en Gotham como Batman.",
+          "picture": "batman_vertical.jpg",
+          "squarePic": "batman_horizontal.jpg",
+          "fecha_creacion": "1939-03-30"
+        },
+        {
+          "id": 3,
+          "name": "Wonder Woman",
+          "about": "Princesa amazona con habilidades divinas y portadora de la Lazo de la Verdad.",
+          "picture": "wonder_woman_vertical.jpg",
+          "squarePic": "wonder_woman_horizontal.jpg",
+          "fecha_creacion": "1941-10-21"
+        },
+        {
+          "id": 4,
+          "name": "The Flash",
+          "about": "Héroe con la capacidad de moverse a velocidades sobrehumanas.",
+          "picture": "the_flash_vertical.jpg",
+          "squarePic": "the_flash_horizontal.jpg",
+          "fecha_creacion": "1940-01-06"
+        },
+        {
+          "id": 5,
+          "name": "Aquaman",
+          "about": "Rey atlante con la capacidad de comunicarse con criaturas marinas.",
+          "picture": "aquaman_vertical.jpg",
+          "squarePic": "aquaman_horizontal.jpg",
+          "fecha_creacion": "1941-11-01"
+        },
+        {
+          "id": 6,
+          "name": "Green Lantern",
+          "about": "Portador del anillo de poder que confiere habilidades sobrenaturales.",
+          "picture": "green_lantern_vertical.jpg",
+          "squarePic": "green_lantern_horizontal.jpg",
+          "fecha_creacion": "1940-07-01"
+        },
+        {
+          "id": 7,
+          "name": "Cyborg",
+          "about": "Héroe con partes del cuerpo cibernéticas después de un accidente.",
+          "picture": "cyborg_vertical.jpg",
+          "squarePic": "cyborg_horizontal.jpg",
+          "fecha_creacion": "1980-07-01"
+        },
+        {
+          "id": 8,
+          "name": "Shazam",
+          "about": "Niño transformado en un superhéroe adulto con poderes mágicos.",
+          "picture": "shazam_vertical.jpg",
+          "squarePic": "shazam_horizontal.jpg",
+          "fecha_creacion": "1939-02-01"
+        },
+        {
+          "id": 9,
+          "name": "Green Arrow",
+          "about": "Arquero y justiciero que combate el crimen en Star City.",
+          "picture": "green_arrow_vertical.jpg",
+          "squarePic": "green_arrow_horizontal.jpg",
+          "fecha_creacion": "1941-11-01"
+        },
+        {
+          "id": 10,
+          "name": "Batwoman",
+          "about": "Héroe enmascarado y prima de Batman, luchando contra el crimen en Gotham.",
+          "picture": "batwoman_vertical.jpg",
+          "squarePic": "batwoman_horizontal.jpg",
+          "fecha_creacion": "1956-03-01"
+        },
+        {
+          "id": 11,
+          "name": "Martian Manhunter",
+          "about": "Último marciano verde con habilidades sobrehumanas.",
+          "picture": "martian_manhunter_vertical.jpg",
+          "squarePic": "martian_manhunter_horizontal.jpg",
+          "fecha_creacion": "1955-11-01"
+        },
+        {
+          "id": 12,
+          "name": "Catwoman",
+          "about": "Ladrona y antiheroína, a veces aliada y a veces enemiga de Batman.",
+          "picture": "catwoman_vertical.jpg",
+          "squarePic": "catwoman_horizontal.jpg",
+          "fecha_creacion": "1940-04-01"
+        },
+        {
+          "id": 13,
+          "name": "Harley Quinn",
+          "about": "Antigua psiquiatra convertida en la compañera del Joker.",
+          "picture": "harley_quinn_vertical.jpg",
+          "squarePic": "harley_quinn_horizontal.jpg",
+          "fecha_creacion": "1992-09-01"
+        },
+        {
+          "id": 14,
+          "name": "The Atom",
+          "about": "Científico capaz de cambiar su tamaño hasta niveles subatómicos.",
+          "picture": "the_atom_vertical.jpg",
+          "squarePic": "the_atom_horizontal.jpg",
+          "fecha_creacion": "1961-10-01"
+        },
+        {
+          "id": 15,
+          "name": "Zatanna",
+          "about": "Maga y hechicera con habilidades místicas.",
+          "picture": "zatanna_vertical.jpg",
+          "squarePic": "zatanna_horizontal.jpg",
+          "fecha_creacion": "1964-11-01"
+        }
+      ]
+
 
 const cardMarvel = document.querySelector('.cardMarvel');
+const cardDc = document.querySelector('.cardDc');
 
-marvel.forEach(item => {
-    const card = document.createElement('div');
-    const divImage = document.createElement('div');
-    const image = document.createElement('img');
-    const divName = document.createElement('div');
-    const pName = document.createElement('p');
-    const boton = document.createElement('button');
+crearCard(marvel,cardMarvel);
+crearCard(dc,cardDc);
 
-    card.classList.add('card');
-    divImage.classList.add('image');
-    image.src = item.squarePic;
-    divName.classList.add('name');
-    pName.textContent = item.name;
-    boton.classList.add('boton');
-    boton.textContent = 'Ver';
+function crearCard(arreglo,padre){
+    arreglo.forEach(item => {
+        const card = document.createElement('div');
+        const divImage = document.createElement('div');
+        const image = document.createElement('img');
+        const divName = document.createElement('div');
+        const pName = document.createElement('p');
+        const boton = document.createElement('button');
+    
+        card.classList.add('card');
+        divImage.classList.add('image');
+        image.src = item.squarePic;
+        divName.classList.add('name');
+        pName.textContent = item.name;
+        boton.classList.add('boton');
+        boton.id = item.id;
+        boton.textContent = 'Ver';
+    
+        divName.appendChild(pName);
+        divName.appendChild(boton);
+        divImage.appendChild(image);
+        card.appendChild(divImage);
+        card.appendChild(divName);
+        padre.appendChild(card);
+    });
+};
 
-    divName.appendChild(pName);
-    divName.appendChild(boton);
-    divImage.appendChild(image);
-    card.appendChild(divImage);
-    card.appendChild(divName);
-    cardMarvel.appendChild(card);
-});
+
 
 
