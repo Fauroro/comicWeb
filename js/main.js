@@ -17,6 +17,7 @@ const marvel = [
         "id": "5d86371f25a058e5b1c8a65e",
         "about": "Laboris est duis eiusmod adipisicing cillum ut sit ea Lorem non laboris quis Lorem. Est culpa esse aliqua non labore dolor esse labore nulla mollit. Nostrud amet est quis adipisicing dolor. Labore veniam elit veniam non ad ex consequat excepteur eiusmod. Minim cupidatat velit Lorem culpa quis consequat incididunt qui amet incididunt pariatur ex aliquip aliqua. Magna ex elit in aliquip minim eu ut ut fugiat ullamco deserunt adipisicing cillum.",
         "picture": "https://i.pinimg.com/736x/ba/9b/36/ba9b3623c9a639296e85f7ff09c3c205.jpg",
+        "squarePic": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/06/capitan-america-1969111.jpg?tf=3840x",
         "name": "Captain America"
     },
     {
@@ -37,21 +38,21 @@ const marvel = [
         "id": "5d86371f97c29d020f1e1f6d",
         "about": "Esse magna Lorem ipsum incididunt sit. Enim eiusmod proident in adipisicing anim excepteur laborum magna aliqua adipisicing ad qui aliqua. Eiusmod enim ullamco laboris adipisicing tempor sint labore. Exercitation cupidatat incididunt nostrud velit nisi aute eu ex pariatur deserunt mollit. Deserunt nisi enim irure elit. Aute amet amet consequat laborum dolor sint anim Lorem id fugiat commodo cupidatat ad. Ipsum quis enim consectetur occaecat laboris esse.",
         "picture": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/4/48/Falcon_AIW_Profile.jpg/revision/latest/scale-to-width-down/310?cb=20180518212822",
-    "squarePic": "https://www.tooys.mx/pub/media/catalog/product/cache/89d4a95274a31fe8bdfcc437494b2c9e/f/a/falcon_marvel_gallery_5c4dc5df6c14d_-_copia.jpg",
+    "squarePic": "https://www.hdwallpapers.in/download/anthony_mackie_falcon_marvel_comics_sam_wilson_with_wings_hd_4k_the_falcon_and_the_winter_soldier-HD.jpg",
         "name": "Falcon"
     },
     {
         "id": "5d86371fd55e2e2a30fe1ccb",
         "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
         "picture": "https://vignette.wikia.nocookie.net/marvelcinematicuniverse/images/9/99/Black_Panther_AIW_Profile.jpg/revision/latest/scale-to-width-down/310?cb=20180518212436",
-    "squarePic": "http://www.mundocinematografico.net/wp-content/uploads/2018/02/black-panther-marvel-cosas-felices.jpg",
+    "squarePic": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/C4E26547ADB216527A0A75F01774F40189FFFB18ACE28727F3567072FE1C6942/scale?width=1200&aspectRatio=1.78&format=webp",
         "name": "Black Panther"
     },
     {
         "id": "5d86371fd55e2e2a30fe1ccb1",
         "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
         "picture": "https://www.outland.no/media/catalog/product/cache/6f3b753be090e58846a92333dfe1de97/4/8/4897011186276_4.jpg",
-    "squarePic": "https://img-cdn.hipertextual.com/files/2019/09/hipertextual-filtracion-revela-que-doctor-strange-2-resucitara-dos-personajes-muertos-marvel-2019435911.jpg?strip=all&lossy=1&quality=57&resize=740%2C490&ssl=1",
+    "squarePic": "https://www.revistafactum.com/wp-content/uploads/2016/11/ds0.jpg",
         "name": "Doctor Strange"
     }, 
     {
@@ -65,33 +66,75 @@ const marvel = [
         "id": "5d86371fd55e2e2a30fe1cc3",
         "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
         "picture": "https://fsmedia.imgix.net/f5/ba/d8/66/7dd4/44e9/8e0a/d91348489582/ant-man-and-the-wasp-2018.jpeg#image",
-    "squarePic": "https://img.chilango.com/2018/05/quien-es-capitan-marvel.jpg",
+    "squarePic": "https://www.mundodeportivo.com/alfabeta/hero/2020/12/Ant-Man-1.jpg?width=1200",
         "name": "Ant Man"
     },
     {
         "id": "5d86371fd55e2e2a30fe1cc4",
         "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
         "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Qum9HPm82yeUaFuMhpo3A98HbgsyUSDmk1cUNS4C2rb31BHZ2w",
-    "squarePic": "https://img.chilango.com/2018/05/quien-es-capitan-marvel.jpg",
+    "squarePic": "https://www.sideshow.com/cdn-cgi/image/quality=90,f=auto/https://www.sideshow.com/storage/product-images/912131/the-wasp_marvel_gallery_63e153ae51302.jpg",
         "name": "The Wasp"
-    }
+    },
+    {
+        "id": "5d86371fd55es52a30fe1cc4",
+        "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Qum9HPm82yeUaFuMhpo3A98HbgsyUSDmk1cUNS4C2rb31BHZ2w",
+    "squarePic": "https://www.sideshow.com/storage/product-images/902965/rocket-deluxe-version_marvel_feature.jpg",
+        "name": "Rocket"
+    },
+    {
+        "id": "5d86fdasd4552a30fe1cc4",
+        "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Qum9HPm82yeUaFuMhpo3A98HbgsyUSDmk1cUNS4C2rb31BHZ2w",
+    "squarePic": "https://www.murphysmultiverse.com/wp-content/uploads/2022/12/scarletwitchdead.jpg",
+        "name": "Scarlet Witch"
+    },
+    {
+        "id": "5d86371fes52a30fsfe54c4",
+        "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Qum9HPm82yeUaFuMhpo3A98HbgsyUSDmk1cUNS4C2rb31BHZ2w",
+    "squarePic": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/08/guardianes-galaxia-drax-destructor-2427449.jpg?tf=3840x",
+        "name": "Drax"
+    },
+    {
+        "id": "5d863asf5asdf52a30fe1cc4",
+        "about": "Id aute in dolore dolor in incididunt dolore duis do mollit officia. Ullamco pariatur eiusmod laborum culpa quis non occaecat ad cillum dolore labore aliqua. Elit magna commodo aliquip laborum aliqua duis.",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Qum9HPm82yeUaFuMhpo3A98HbgsyUSDmk1cUNS4C2rb31BHZ2w",
+    "squarePic": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2021/05/loki-tom-hiddleston-2345851.jpg?tf=3840x",
+        "name": "Loki"
+    },
+
     ]
 
 const dc = [
     
 ]
 
-console.log('holi');
-const id1 = '5d86371fd55e2e2a30fe1ccb';
-const name1 = document.getElementById('name1');
-const image1 = document.getElementById('image1');
-const hero1 = marvel.find(hero1=>hero1.id===id1);
-name1.textContent = (hero1.name);
-image1.src = hero1.squarePic;
-const id2 = '5d86371f2343e37870b91ef1';
-const name2 = document.getElementById('name2');
-const image2 = document.getElementById('image2');
-const hero2 = marvel.find(hero2=>hero2.id===id2);
-name2.textContent = (hero2.name);
-image2.src = hero2.squarePic;
+const cardMarvel = document.querySelector('.cardMarvel');
+
+marvel.forEach(item => {
+    const card = document.createElement('div');
+    const divImage = document.createElement('div');
+    const image = document.createElement('img');
+    const divName = document.createElement('div');
+    const pName = document.createElement('p');
+    const boton = document.createElement('button');
+
+    card.classList.add('card');
+    divImage.classList.add('image');
+    image.src = item.squarePic;
+    divName.classList.add('name');
+    pName.textContent = item.name;
+    boton.classList.add('boton');
+    boton.textContent = 'Ver';
+
+    divName.appendChild(pName);
+    divName.appendChild(boton);
+    divImage.appendChild(image);
+    card.appendChild(divImage);
+    card.appendChild(divName);
+    cardMarvel.appendChild(card);
+});
+
 
