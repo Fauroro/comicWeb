@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded',async (e) =>{
 });
 
 async function loadData2(){
-    let dataMarvel = await fetch('./json/dataMarvel.json').then(response => response.json()); 
-    let dataDC = await fetch('./json/dataDC.json').then(response => response.json()); 
+    let dataMarvel = await fetch('./../json/dataMarvel.json').then(response => response.json()); 
+    let dataDC = await fetch('./../json/dataDC.json').then(response => response.json()); 
     return [dataMarvel,dataDC];
 }
 
