@@ -42,11 +42,12 @@ div.name{
   display: flex;
   grid-column: span 2;
   align-items: center;
+  text-align: center;
   justify-content: space-around;
 }
 .boton{
   padding: 5px 30px;
-  border-radius: 10px;
+  border-radius: 0 15px 0 15px;
   font-size: 1em;
   transition: 0.4s;
 }
@@ -62,6 +63,7 @@ div.card{
   border-radius: 10px;
   align-items: center;
   min-height: 300px;
+  box-shadow: 0 0 7px lightgray;
 }
 div.image{
   grid-column: span 2;
