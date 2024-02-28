@@ -26,6 +26,7 @@ nav.encabezado {
 img {
   margin: 5px;
   height: 50px;
+  border-radius: 0px 20px 0px 20px;
 }
 
 div.container{
@@ -88,12 +89,15 @@ dialog {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 20px;
+  background-color: #414141c2;
+  padding: 30px;
   width: 75vw;
   height: 75vh;
   z-index: 5;
   overflow-y: auto;
+  color: white;
+  border: none;
+  border-radius: 0px 40px 0px 40px;
 } 
 .general{
   width: 100%;
@@ -110,8 +114,13 @@ div.imageModal{
 .imgModal{
   object-fit: contain;
   max-width: 300px;
+  max-height: 500px;
   height: auto;
   width: auto;
+}
+.cerrar{
+  position: absolute;
+  right: 5%;
 }
 
 @media (max-width:600px) {
