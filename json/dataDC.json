@@ -1,122 +1,122 @@
 [
     {
         "id": "1",
-        "name": "Superman",
-        "about": "Kal-El, el último hijo de Krypton, es un alienígena con poderes sobrehumanos en la Tierra. Con fuerza, velocidad y visión de calor, Superman defiende la justicia y la verdad.",
-        "picture": "superman_vertical.jpg",
-        "squarePic": "superman_horizontal.jpg",
-        "fecha_creacion": "1938-04-18"
+        "name": "Batman",
+        "about": "Bruce Wayne, un millonario traumatizado por el asesinato de sus padres, lucha contra el crimen en Gotham como Batman. Con habilidades detectivescas y tecnología avanzada, es un justiciero en la oscuridad.",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f359881d-6bb2-4391-aba6-779f7084edd4/davdir9-81533dbe-82f0-4a8c-839b-b8820093fe96.png/v1/fit/w_828,h_1516/batman___transparent_by_asthonx1_davdir9-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTg3NSIsInBhdGgiOiJcL2ZcL2YzNTk4ODFkLTZiYjItNDM5MS1hYmE2LTc3OWY3MDg0ZWRkNFwvZGF2ZGlyOS04MTUzM2RiZS04MmYwLTRhOGMtODM5Yi1iODgyMDA5M2ZlOTYucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.gFVX5X8hh3MS-YwGMvnaExqvcXDYayyNMdjvRun42IQ",
+        "squarePic": "https://cdn.mos.cms.futurecdn.net/2NBcYamXxLpvA77ciPfKZW-1200-80.jpg",
+        "fecha_creacion": "1939-03-30"
     },
     {
         "id": "2",
-        "name": "Batman",
-        "about": "Bruce Wayne, un millonario traumatizado por el asesinato de sus padres, lucha contra el crimen en Gotham como Batman. Con habilidades detectivescas y tecnología avanzada, es un justiciero en la oscuridad.",
-        "picture": "batman_vertical.jpg",
-        "squarePic": "batman_horizontal.jpg",
-        "fecha_creacion": "1939-03-30"
+        "name": "Superman",
+        "about": "Kal-El, el último hijo de Krypton, es un alienígena con poderes sobrehumanos en la Tierra. Con fuerza, velocidad y visión de calor, Superman defiende la justicia y la verdad.",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/ddkliqc-c3421740-c866-49d2-b808-0e153d2dac09.png/v1/fit/w_828,h_1440/justice_league_snyder_cut_superman_png_by_metropolis_hero1125_ddkliqc-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUzMyIsInBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGRrbGlxYy1jMzQyMTc0MC1jODY2LTQ5ZDItYjgwOC0wZTE1M2QyZGFjMDkucG5nIiwid2lkdGgiOiI8PTg4MiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.fqQtZN79KSdwRJD_gca7ibBYa2Dkezazhi4EfMb993A",
+        "squarePic": "https://s1.eestatic.com/2022/12/15/series/cine/726187515_229497619_1706x960.jpg",
+        "fecha_creacion": "1938-04-18"
     },
     {
         "id": "3",
         "name": "Wonder Woman",
         "about": "Diana Prince, princesa amazona y semidiosa, posee habilidades divinas y porta la Lazo de la Verdad. Como embajadora de Themyscira, Wonder Woman lucha por la paz y la justicia.",
-        "picture": "wonder_woman_vertical.jpg",
-        "squarePic": "wonder_woman_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9495549c-4b81-474b-879a-d4387751063c/ddvllvi-2e14a13e-6e4c-4285-ae7d-6299212ac4f6.png/v1/fit/w_828,h_1042/wonder_woman_by_galleryab_ddvllvi-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYxMCIsInBhdGgiOiJcL2ZcLzk0OTU1NDljLTRiODEtNDc0Yi04NzlhLWQ0Mzg3NzUxMDYzY1wvZGR2bGx2aS0yZTE0YTEzZS02ZTRjLTQyODUtYWU3ZC02Mjk5MjEyYWM0ZjYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ezQcVapx22Jt2uUeo1deUQTD3fCrStYHy9bheHsKDfw",
+        "squarePic": "https://i.blogs.es/fc7807/wonder-woman0/1366_2000.jpg",
         "fecha_creacion": "1941-10-21"
     },
     {
         "id": "4",
         "name": "The Flash",
         "about": "Barry Allen, afectado por un rayo y productos químicos, obtiene la capacidad de moverse a velocidades sobrehumanas. Como The Flash, protege Central City y es miembro clave de la Liga de la Justicia.",
-        "picture": "the_flash_vertical.jpg",
-        "squarePic": "the_flash_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22533fb0-3db2-4d45-8675-4aaf09a2027b/dbnnbnv-3f15cfe0-560d-4165-9491-4667c56bbc5b.png/v1/fit/w_400,h_896/flash_justice_league_transparent_background_by_gasa979_dbnnbnv-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODk2IiwicGF0aCI6IlwvZlwvMjI1MzNmYjAtM2RiMi00ZDQ1LTg2NzUtNGFhZjA5YTIwMjdiXC9kYm5uYm52LTNmMTVjZmUwLTU2MGQtNDE2NS05NDkxLTQ2NjdjNTZiYmM1Yi5wbmciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.gYuNfXmVk9jkjQU7jxKIH4g4uyx8rjgomiErv3PPyno",
+        "squarePic": "https://www.lifeboxset.com/wp-content/uploads/2023/05/flash-2023-05-23_11-12-36.jpg",
         "fecha_creacion": "1940-01-06"
     },
     {
         "id": "5",
         "name": "Aquaman",
         "about": "Arthur Curry, mitad atlante y mitad humano, es el rey de Atlantis con la capacidad de comunicarse con criaturas marinas. Aquaman defiende los océanos y su pueblo con valentía.",
-        "picture": "aquaman_vertical.jpg",
-        "squarePic": "aquaman_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1dbc1935-6542-4ee3-822f-135cff4ba62c/dcw6lla-a8aabe43-6627-429a-9416-e8a3c797f095.png/v1/fit/w_381,h_800/aquaman___transparent__by_speedcam_dcw6lla-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODAwIiwicGF0aCI6IlwvZlwvMWRiYzE5MzUtNjU0Mi00ZWUzLTgyMmYtMTM1Y2ZmNGJhNjJjXC9kY3c2bGxhLWE4YWFiZTQzLTY2MjctNDI5YS05NDE2LWU4YTNjNzk3ZjA5NS5wbmciLCJ3aWR0aCI6Ijw9MzgxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.GI9235JNAVSXOON8cvT_ztkuwxvvvDKZs2CmSx8ahk4",
+        "squarePic": "https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2023/11/aquaman-reino-perdido-2023-3226946.jpg?tf=3840x",
         "fecha_creacion": "1941-11-01"
     },
     {
         "id": "6",
         "name": "Green Lantern",
         "about": "Portador del anillo de poder que confiere habilidades sobrenaturales, Green Lantern es el protector del sector espacial 2814. Diversos individuos han llevado el anillo, cada uno con su propio juramento.",
-        "picture": "green_lantern_vertical.jpg",
-        "squarePic": "green_lantern_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22533fb0-3db2-4d45-8675-4aaf09a2027b/dbg0giq-c624dfaf-886c-4e21-944c-4f1f6b4507cc.png/v1/fit/w_617,h_1122/green_lantern_hal_jordan_transparent_by_gasa979_dbg0giq-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTEyMiIsInBhdGgiOiJcL2ZcLzIyNTMzZmIwLTNkYjItNGQ0NS04Njc1LTRhYWYwOWEyMDI3YlwvZGJnMGdpcS1jNjI0ZGZhZi04ODZjLTRlMjEtOTQ0Yy00ZjFmNmI0NTA3Y2MucG5nIiwid2lkdGgiOiI8PTYxNyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.5ySIP9j6Mx6k3OAhwj2HeCtKIWnotNfr5Fn2jyf_Uf4",
+        "squarePic": "https://images.bauerhosting.com/legacy/empire-tmdb/films/44912/images/gulyiqtyuzFRJCnvNwD6Z786kQi.jpg?ar=16:9&fit=crop&crop=top",
         "fecha_creacion": "1940-07-01"
     },
     {
         "id": "7",
         "name": "Cyborg",
         "about": "Victor Stone, atleta y estudiante convertido en héroe, tiene partes del cuerpo cibernéticas después de un accidente. Cyborg es un miembro clave de la Liga de la Justicia con habilidades tecnológicas impresionantes.",
-        "picture": "cyborg_vertical.jpg",
-        "squarePic": "cyborg_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/dckenwr-3856bbdf-c87d-47c3-b778-6894843092ae.png/v1/fit/w_492,h_1157/justice_league_cyborg_dceu_png_by_metropolis_hero1125_dckenwr-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTE1NyIsInBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGNrZW53ci0zODU2YmJkZi1jODdkLTQ3YzMtYjc3OC02ODk0ODQzMDkyYWUucG5nIiwid2lkdGgiOiI8PTQ5MiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.ch2WzedU16eRNh6foMAhmv6aeNDzcrTLGKtBJGn0CKc",
+        "squarePic": "https://media.comicbook.com/2017/11/justice-league-cyborg-star-labs-1050432.jpg?auto=webp",
         "fecha_creacion": "1980-07-01"
     },
     {
         "id": "8",
         "name": "Shazam",
         "about": "Billy Batson, un niño transformado en un superhéroe adulto al pronunciar la palabra 'Shazam'. Con poderes mágicos otorgados por figuras mitológicas, Shazam es un defensor de la verdad y la justicia.",
-        "picture": "shazam_vertical.jpg",
-        "squarePic": "shazam_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9a145268-41e7-4aa6-93b1-564a57fd6f05/dd3gyru-c98afbb2-4a69-4458-9eff-2d7bf222d5d6.png/v1/fit/w_828,h_1692/shazam_by_hz_designs_dd3gyru-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjA5MyIsInBhdGgiOiJcL2ZcLzlhMTQ1MjY4LTQxZTctNGFhNi05M2IxLTU2NGE1N2ZkNmYwNVwvZGQzZ3lydS1jOThhZmJiMi00YTY5LTQ0NTgtOWVmZi0yZDdiZjIyMmQ1ZDYucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.LRrku8LF562AzA4FLZ6ek-m1oJtPvtD9AMe_P7vup1w",
+        "squarePic": "https://i.blogs.es/602a1f/shazam-la-furia-de-los-dioses/1366_2000.jpeg",
         "fecha_creacion": "1939-02-01"
     },
     {
         "id": "9",
         "name": "Green Arrow",
         "about": "Oliver Queen, arquero y justiciero, combate el crimen en Star City. Green Arrow es conocido por su habilidad con el arco y la flecha, así como por su sentido de la justicia.",
-        "picture": "green_arrow_vertical.jpg",
-        "squarePic": "green_arrow_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/22533fb0-3db2-4d45-8675-4aaf09a2027b/dbl7brq-0308fac3-1b88-4560-83df-f1aea38ca229.png/v1/fit/w_400,h_991/arrow_cw_transparent_background_by_gasa979_dbl7brq-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTkxIiwicGF0aCI6IlwvZlwvMjI1MzNmYjAtM2RiMi00ZDQ1LTg2NzUtNGFhZjA5YTIwMjdiXC9kYmw3YnJxLTAzMDhmYWMzLTFiODgtNDU2MC04M2RmLWYxYWVhMzhjYTIyOS5wbmciLCJ3aWR0aCI6Ijw9NDAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.D4p6ZrkuIFN8xBLDd4720IQgvFiZTcCTk8qFe68JO2Q",
+        "squarePic": "https://wallpapers.com/images/featured/green-arrow-7fxabozek6nvsry9.jpg",
         "fecha_creacion": "1941-11-01"
     },
     {
         "id": "10",
         "name": "Batwoman",
         "about": "Kate Kane, prima de Batman, lucha contra el crimen en Gotham como Batwoman. Con habilidades de combate excepcionales y tecnología avanzada, es una defensora intrépida de la justicia.",
-        "picture": "batwoman_vertical.jpg",
-        "squarePic": "batwoman_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/ddjaiez-8882d1b2-b9dd-4d62-9d83-150269f0bd22.png/v1/fit/w_828,h_1714/batwoman_kate_kane_png_by_metropolis_hero1125_ddjaiez-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjIxMiIsInBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGRqYWllei04ODgyZDFiMi1iOWRkLTRkNjItOWQ4My0xNTAyNjlmMGJkMjIucG5nIiwid2lkdGgiOiI8PTEwNjgifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ._sI6zsBZbuenc6lMB9WNKpMGjLohWpk9V3cXX0LErvY",
+        "squarePic": "https://images7.alphacoders.com/111/1110359.jpg",
         "fecha_creacion": "1956-03-01"
     },
     {
         "id": "11",
         "name": "Martian Manhunter",
         "about": "J'onn J'onzz, el último marciano verde, posee habilidades sobrehumanas. Como miembro de la Liga de la Justicia, Martian Manhunter protege la Tierra contra amenazas cósmicas.",
-        "picture": "martian_manhunter_vertical.jpg",
-        "squarePic": "martian_manhunter_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/deg1a9n-d963eb33-b7ca-4912-beb1-f0c1fc95e7b1.png/v1/fit/w_579,h_1280/supergirl_martian_manhunter_png_by_metropolis_hero1125_deg1a9n-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGVnMWE5bi1kOTYzZWIzMy1iN2NhLTQ5MTItYmViMS1mMGMxZmM5NWU3YjEucG5nIiwid2lkdGgiOiI8PTU3OSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3cRIVKy-qy6CDnPfRm7uw49_1eOy80xb-_hK3k0-bis",
+        "squarePic": "https://c4.wallpaperflare.com/wallpaper/23/862/539/comics-martian-manhunter-wallpaper-preview.jpg",
         "fecha_creacion": "1955-11-01"
     },
     {
         "id": "12",
         "name": "Catwoman",
         "about": "Selina Kyle, ladrona y antiheroína, a veces aliada y a veces enemiga de Batman. Catwoman es conocida por su destreza atlética y su habilidad para sortear la ley.",
-        "picture": "catwoman_vertical.jpg",
-        "squarePic": "catwoman_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1dbc1935-6542-4ee3-822f-135cff4ba62c/dbg5u9h-eb6a152e-f156-4e42-a12a-278ebcd38d1d.png/v1/fit/w_828,h_1374/catwoman__with_whip____transparent_background__by_speedcam_dbg5u9h-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTY5OSIsInBhdGgiOiJcL2ZcLzFkYmMxOTM1LTY1NDItNGVlMy04MjJmLTEzNWNmZjRiYTYyY1wvZGJnNXU5aC1lYjZhMTUyZS1mMTU2LTRlNDItYTEyYS0yNzhlYmNkMzhkMWQucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.Ozx74H0xecflAhrZ8YxDfiSmQSEzgB6eF9qSqphDgTg",
+        "squarePic": "https://live.staticflickr.com/5662/22804546965_70a480a3e2_b.jpg",
         "fecha_creacion": "1940-04-01"
     },
     {
         "id": "13",
         "name": "Harley Quinn",
         "about": "Harleen Quinzel, antigua psiquiatra, se convierte en la caótica compañera del Joker. Harley Quinn es conocida por su personalidad excéntrica y su relación tumultuosa con el Príncipe Payaso del Crimen.",
-        "picture": "harley_quinn_vertical.jpg",
-        "squarePic": "harley_quinn_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1ebd221d-3581-4775-8f4c-086c377bc4c3/de5izwv-031542cc-98b7-4f2c-8ba6-c309836a87ef.png/v1/fit/w_828,h_1242/harley_quinn___the_suicide_squad_png_by_docbuffflash82_de5izwv-414w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUwMCIsInBhdGgiOiJcL2ZcLzFlYmQyMjFkLTM1ODEtNDc3NS04ZjRjLTA4NmMzNzdiYzRjM1wvZGU1aXp3di0wMzE1NDJjYy05OGI3LTRmMmMtOGJhNi1jMzA5ODM2YTg3ZWYucG5nIiwid2lkdGgiOiI8PTEwMDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.ZWE4kY4evinMLVAKMq2pXrlf8zslVSqXLOoTGWgqfe0",
+        "squarePic": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/06/harley-quinn-margot-robin.jpg",
         "fecha_creacion": "1992-09-01"
     },
     {
         "id": "14",
         "name": "The Atom",
         "about": "Ray Palmer, científico capaz de cambiar su tamaño hasta niveles subatómicos. The Atom utiliza su habilidad para la miniaturización en la lucha contra el crimen y la exploración científica.",
-        "picture": "the_atom_vertical.jpg",
-        "squarePic": "the_atom_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b8d2b12-21e8-4931-8a6d-fb9ecdd60383/df4m1c9-96b9e9a2-1bf5-4973-90e1-25e328226a5b.png/v1/fit/w_702,h_1800/legends_of_tomorrow_the_atom_png_by_metropolis_hero1125_df4m1c9-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjU0MiIsInBhdGgiOiJcL2ZcLzViOGQyYjEyLTIxZTgtNDkzMS04YTZkLWZiOWVjZGQ2MDM4M1wvZGY0bTFjOS05NmI5ZTlhMi0xYmY1LTQ5NzMtOTBlMS0yNWUzMjgyMjZhNWIucG5nIiwid2lkdGgiOiI8PTk5MSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.lw8u8f04-rOBFtpXf_zDjludODMdfoKsKsuybsds6WY",
+        "squarePic": "https://w0.peakpx.com/wallpaper/828/1003/HD-wallpaper-the-atom-blue-neon-lights-superheroes-dc-comics-ray-palmer-the-atom-dr-raymond-palmer.jpg",
         "fecha_creacion": "1961-10-01"
     },
     {
         "id": "15",
         "name": "Zatanna",
         "about": "Zatanna Zatara, maga y hechicera con habilidades místicas. Con la capacidad de lanzar hechizos invocando palabras al revés, Zatanna es una poderosa defensora del equilibrio mágico.",
-        "picture": "zatanna_vertical.jpg",
-        "squarePic": "zatanna_horizontal.jpg",
+        "picture": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ae560dc7-6ba5-4180-91a3-21a65f1105eb/df2khnr-a2dfcffe-4b91-43c2-818f-158b03e8fbb3.png/v1/fit/w_600,h_1561/zatanna_render_2_by_argentinodeadpool_df2khnr-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTU2MSIsInBhdGgiOiJcL2ZcL2FlNTYwZGM3LTZiYTUtNDE4MC05MWEzLTIxYTY1ZjExMDVlYlwvZGYya2huci1hMmRmY2ZmZS00YjkxLTQzYzItODE4Zi0xNThiMDNlOGZiYjMucG5nIiwid2lkdGgiOiI8PTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.iDcUcZY5t7Sl2A5XA_Ipg9y3-M2thJoSW46Ncl1qyvQ",
+        "squarePic": "https://images7.alphacoders.com/465/465883.jpg",
         "fecha_creacion": "1964-11-01"
     }
 ]
