@@ -1,27 +1,43 @@
 let marvel = [];
 let dc = [];
 let data = [];
-document.addEventListener('DOMContentLoaded',async (e) =>{
+let todo = [];
+document.addEventListener('DOMContentLoaded', async (e) => {
     data = await loadData2();
     marvel = data[0];
     dc = data[1];
-    crearCard(marvel,cardMarvel,'marvel');
-    crearCard(dc,cardDc,'dc');
+    todo = [...marvel, ...dc];
+    crearCard(marvel, cardMarvel, 'marvel');
+    crearCard(dc, cardDc, 'dc');
+
+    const buscar = document.querySelector('.buscar');
+    buscar.addEventListener('click',obtenerNombre)
+    function obtenerNombre(){
+        const input = document.getElementById("buscador");
+        const valor = input.value;
+        const resultado = todo.filter((hero) =>
+            hero.name.toLowerCase().startsWith(valor)
+        );
+        console.log(resultado[0]);
+        mostrarModal(resultado[0]);
+        input.value = "";
+    }
 });
 
-async function loadData2(){
-    let dataMarvel = await fetch('./json/dataMarvel.json').then(response => response.json()); 
-    let dataDC = await fetch('./json/dataDC.json').then(response => response.json()); 
-    return [dataMarvel,dataDC];
+async function loadData2() {
+    let dataMarvel = await fetch('./json/dataMarvel.json').then(response => response.json());
+    let dataDC = await fetch('./json/dataDC.json').then(response => response.json());
+    return [dataMarvel, dataDC];
 }
 
+const enca = document.getElementsByClassName('encabezado');
 const cardMarvel = document.querySelector('.cardMarvel');
 const cardDc = document.querySelector('.cardDc');
 const sectionMarvel = document.getElementById('marvel');
 
 // sectionMarvel.style.display = 'none'
 
-function crearCard(arreglo,padre,franquicia){
+function crearCard(arreglo, padre, franquicia) {
     arreglo.forEach(item => {
         const card = document.createElement('div');
         const divImage = document.createElement('div');
@@ -29,16 +45,16 @@ function crearCard(arreglo,padre,franquicia){
         const divName = document.createElement('div');
         const pName = document.createElement('p');
         const boton = document.createElement('button');
-    
+
         card.classList.add('card');
         divImage.classList.add('image');
         image.src = item.squarePic;
         divName.classList.add('name');
         pName.textContent = item.name;
-        boton.classList.add('boton','abrir',franquicia);
+        boton.classList.add('boton', 'abrir', franquicia);
         boton.id = item.id;
         boton.textContent = 'Ver';
-    
+
         divName.appendChild(pName);
         divName.appendChild(boton);
         divImage.appendChild(image);
@@ -63,36 +79,39 @@ const fecha = dialog.querySelector('.fecha');
 cardsMarvel.addEventListener('click', detectarClick)
 cardsDc.addEventListener('click', detectarClick)
 
-function detectarClick(event){
-    if (event.target.classList.contains("abrir")){
+function detectarClick(event) {
+    if (event.target.classList.contains("abrir")) {
         const id = event.target.id;
         if (event.target.classList.contains('marvel')) {
-            buscar(id,marvel)
+            buscar(id, marvel)
         }
         else if (event.target.classList.contains('dc')) {
-            buscar(id,dc)
+            buscar(id, dc)
         }
     }
 }
 
-function buscar(id,franquicia){
+function buscar(id, franquicia) {
     let hero = franquicia.find((item) => item.id === id);
-    mostrarModal(hero);    
+    mostrarModal(hero);
 }
 
-function mostrarModal(hero){
+function mostrarModal(hero) {
     imgModal.src = hero.picture;
     tituloModal.textContent = hero.name;
     descripcion.textContent = hero.about;
     fecha.innerHTML = `<strong>Fecha de creacion: </strong> ${hero.fecha_creacion}`
     opacity.style.display = 'block';
+    // enca[0].style.display = 'none';
+    // enca[1].style.display = 'none';
     dialog.show();
 }
 
-btnCerrar.addEventListener('click', function (){
+btnCerrar.addEventListener('click', function () {
     dialog.close()
     imgModal.src = "";
     opacity.style.display = 'none';
+    // enca[0].style.display = 'flex';
+    // enca[1].style.display = 'flex';
 });
-
 

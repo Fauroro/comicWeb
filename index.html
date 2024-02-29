@@ -5,13 +5,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
   <script src="./js/main.js" defer></script>
   <title>Gallery</title>
 </head>
 
 <body>
-  <main>
-    <section id="marvel">
+  <main id="main">
+    <div class="up">
+      <a href="#search"><i class="bx bx-chevrons-up"></i></a>
+    </div>
+    <section id="search" class="search">
+      <form action="">
+        <select name="" id=""></select>
+      </form>
+      <div>
+        <input type="text" class="buscador" id="buscador" placeholder="Buscar...">
+        <button type="button" class="boton buscar">Buscar</button>
+      </div>
+    </section>
+    <section id="marvel" class="cards">
       <nav class="encabezado">
         <img src="./images/marvelLogo.gif" alt="logo Marvel">
         <div class="titulo">
@@ -20,7 +34,7 @@
       </nav>
       <div class="container cardMarvel"></div>
     </section>
-    <section id="dc">
+    <section id="dc" class="cards">
       <nav class="encabezado">
         <img src="./images/dclogo.png" alt="logo DC">
         <div class="titulo">
@@ -32,11 +46,11 @@
     <div class="opacity"></div>
     <dialog class="dialogo">
       <section class="general">
-        <div class="imageModal"><img class="imgModal" src="" alt="Poster foto"/></div>
+        <div class="imageModal"><img class="imgModal" src="" alt="Poster" /></div>
         <div class="informacion">
           <h2 class="tituloModal"></h2><br>
           <p class="descripcion"></p><br>
-          <p class="fecha"><strong>Fecha de creacion:</strong> xx/xx/xxxx</p><br>
+          <p class="fecha"></p><br>
           <button class="boton cerrar">Regresar</button><br>
         </div>
       </section>

@@ -126,6 +126,32 @@ div.imageModal{
   right: 5%;
 }
 
+#search{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 5px 10px;
+}
+
+.up i{
+  padding: 3px;
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  width:fit-content;  
+  border-radius: 0 15px 0 15px;
+  font-size: 2rem;
+  z-index: 4;
+  box-shadow: 0 0 7px lightgray;
+}
+
+.buscador{
+  padding: 5px;
+  border-radius: 0 15px 0 15px;
+}
+
 @media (max-width:600px) {
   nav.encabezado {
     font-size: 5vw;
