@@ -13,15 +13,28 @@ document.addEventListener('DOMContentLoaded', async (e) => {
     const buscar = document.querySelector('.buscar');
     buscar.addEventListener('click',obtenerNombre)
     function obtenerNombre(){
+        cardsDc.innerHTML = "";
+        cardsMarvel.innerHTML = "";
+        enca[0].style.display = 'none';
+        enca[1].style.display = 'none';
+        console.log(cardsMarvel);
         const input = document.getElementById("buscador");
         const valor = input.value;
         const resultado = todo.filter((hero) =>
-            hero.name.toLowerCase().startsWith(valor)
+            hero.name.toLowerCase().includes(valor)
         );
         console.log(resultado[0]);
-        mostrarModal(resultado[0]);
-        input.value = "";
+        crearCard(resultado,cardsMarvel);
+        // input.value = "";
     }
+    const up = document.getElementById('up');
+
+    up.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
 });
 
 async function loadData2() {
@@ -34,8 +47,6 @@ const enca = document.getElementsByClassName('encabezado');
 const cardMarvel = document.querySelector('.cardMarvel');
 const cardDc = document.querySelector('.cardDc');
 const sectionMarvel = document.getElementById('marvel');
-
-// sectionMarvel.style.display = 'none'
 
 function crearCard(arreglo, padre, franquicia) {
     arreglo.forEach(item => {
@@ -102,8 +113,6 @@ function mostrarModal(hero) {
     descripcion.textContent = hero.about;
     fecha.innerHTML = `<strong>Fecha de creacion: </strong> ${hero.fecha_creacion}`
     opacity.style.display = 'block';
-    // enca[0].style.display = 'none';
-    // enca[1].style.display = 'none';
     dialog.show();
 }
 
@@ -111,7 +120,7 @@ btnCerrar.addEventListener('click', function () {
     dialog.close()
     imgModal.src = "";
     opacity.style.display = 'none';
-    // enca[0].style.display = 'flex';
-    // enca[1].style.display = 'flex';
 });
 
+
+// sectionMarvel.style.display = 'none'
