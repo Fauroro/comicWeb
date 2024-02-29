@@ -17,15 +17,14 @@ document.addEventListener('DOMContentLoaded', async (e) => {
         cardsMarvel.innerHTML = "";
         enca[0].style.display = 'none';
         enca[1].style.display = 'none';
-        console.log(cardsMarvel);
         const input = document.getElementById("buscador");
-        const valor = input.value;
+        const valor = input.value.toLowerCase();
         const resultado = todo.filter((hero) =>
             hero.name.toLowerCase().includes(valor)
         );
         console.log(resultado[0]);
         crearCard(resultado,cardsMarvel);
-        // input.value = "";
+        input.value = "";
     }
     const up = document.getElementById('up');
 
@@ -98,6 +97,8 @@ function detectarClick(event) {
         }
         else if (event.target.classList.contains('dc')) {
             buscar(id, dc)
+        }else{
+            buscar(id, todo)
         }
     }
 }
