@@ -46,6 +46,7 @@ const enca = document.getElementsByClassName('encabezado');
 const cardMarvel = document.querySelector('.cardMarvel');
 const cardDc = document.querySelector('.cardDc');
 const sectionMarvel = document.getElementById('marvel');
+const sectionDC = document.getElementById('dc');
 
 function crearCard(arreglo, padre, franquicia) {
     arreglo.forEach(item => {
@@ -123,5 +124,43 @@ btnCerrar.addEventListener('click', function () {
     opacity.style.display = 'none';
 });
 
+let marvelFilter = document.querySelector('#marvelFilter');
+let dcFilter = document.querySelector('#dcFilter');
+let allFilter = document.querySelector('#allFilter');
+marvelFilter.addEventListener('click', universeFilter);
+dcFilter.addEventListener('click', universeFilter);
+allFilter.addEventListener('click', universeFilter);
 
-// sectionMarvel.style.display = 'none'
+function universeFilter(event) {
+
+    cardsMarvel.innerHTML = "";
+    cardsDc.innerHTML = "";
+    if (event.target.id === 'marvelFilter') {
+        crearCard(marvel, cardMarvel, 'marvel');
+        enca[0].style.display = 'flex';
+        enca[1].style.display = 'none';
+        cardsDc.innerHTML = "";
+        sectionMarvel.style.display = 'block';
+        sectionDC.style.display = 'none';
+    }
+    else if (event.target.id === 'dcFilter') {
+        crearCard(dc, cardDc, 'dc');
+        enca[0].style.display = 'none';
+        enca[1].style.display = 'flex';
+        cardsMarvel.innerHTML = "";
+        sectionMarvel.style.display = 'none';
+        sectionDC.style.display = 'block';
+    }
+    else if (event.target.id === 'allFilter') {
+        crearCard(marvel, cardMarvel, 'marvel');
+        crearCard(dc, cardDc, 'dc');
+        enca[0].style.display = 'flex';
+        enca[1].style.display = 'flex';
+        sectionDC.style.display = 'block';
+        sectionMarvel.style.display = 'block';
+    }
+
+}
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}

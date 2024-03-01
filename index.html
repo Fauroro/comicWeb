@@ -14,16 +14,24 @@
 <body>
   <main id="main">
     <section id="search" class="search">
-      <form action="">
-        <select name="" id=""></select>
-      </form>
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn boton">
+          Universe
+          <i onclick="myFunction()" class='bx bx-filter'></i>
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+          <a id="marvelFilter" href="#">Marvel</a>
+          <a id="dcFilter" href="#">DC</a>
+          <a id="allFilter" href="#">All</a>
+        </div>
+      </div>
       <div>
         <input type="text" class="buscador" id="buscador" placeholder="Buscar...">
         <button type="button" class="boton buscar">Buscar</button>
       </div>
     </section>
     <div class="up">
-      <button id="up"><i class="bx bx-chevrons-up"></i></button>    
+      <button id="up"><i class="bx bx-chevrons-up"></i></button>
     </div>
     <section id="marvel" class="cards">
       <nav class="encabezado">
