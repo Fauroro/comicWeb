@@ -1,3 +1,21 @@
+const enca = document.getElementsByClassName('encabezado');
+const cardMarvel = document.querySelector('.cardMarvel');
+const cardDc = document.querySelector('.cardDc');
+const sectionMarvel = document.getElementById('marvel');
+const sectionDC = document.getElementById('dc');
+
+const btnAbrir = document.querySelector('.abrir');
+const btnCerrar = document.querySelector('.cerrar');
+const dialog = document.querySelector('.dialogo');
+const opacity = document.querySelector('.opacity')
+const cardsMarvel = document.querySelector(".cardMarvel")
+const cardsDc = document.querySelector(".cardDc")
+
+const imgModal = dialog.querySelector('.imgModal');
+const tituloModal = dialog.querySelector('.tituloModal');
+const descripcion = dialog.querySelector('.descripcion');
+const fecha = dialog.querySelector('.fecha');
+
 let marvel = [];
 let dc = [];
 let data = [];
@@ -42,12 +60,6 @@ async function loadData2() {
     return [dataMarvel, dataDC];
 }
 
-const enca = document.getElementsByClassName('encabezado');
-const cardMarvel = document.querySelector('.cardMarvel');
-const cardDc = document.querySelector('.cardDc');
-const sectionMarvel = document.getElementById('marvel');
-const sectionDC = document.getElementById('dc');
-
 function crearCard(arreglo, padre, franquicia) {
     arreglo.forEach(item => {
         const card = document.createElement('div');
@@ -74,18 +86,6 @@ function crearCard(arreglo, padre, franquicia) {
         padre.appendChild(card);
     });
 };
-
-const btnAbrir = document.querySelector('.abrir');
-const btnCerrar = document.querySelector('.cerrar');
-const dialog = document.querySelector('.dialogo');
-const opacity = document.querySelector('.opacity')
-const cardsMarvel = document.querySelector(".cardMarvel")
-const cardsDc = document.querySelector(".cardDc")
-
-const imgModal = dialog.querySelector('.imgModal');
-const tituloModal = dialog.querySelector('.tituloModal');
-const descripcion = dialog.querySelector('.descripcion');
-const fecha = dialog.querySelector('.fecha');
 
 cardsMarvel.addEventListener('click', detectarClick)
 cardsDc.addEventListener('click', detectarClick)
